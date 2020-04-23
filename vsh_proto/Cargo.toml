@@ -1,0 +1,14 @@
+[package]
+name = "vsh_proto"
+version = "0.1.0"
+authors = ["The Chromium OS Authors"]
+build = "build.rs"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+protobuf = "2"
+
+[build-dependencies]
+protoc-rust = "2"
